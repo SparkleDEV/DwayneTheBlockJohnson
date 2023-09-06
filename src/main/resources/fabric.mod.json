@@ -1,0 +1,33 @@
+{
+	"schemaVersion": 1,
+	"id": "dwaynetheblockjohnson",
+	"version": "${version}",
+	"name": "DwayneTheBlockJohnson",
+	"description": "Dwayne \"The Block\" Johnson",
+	"authors": [
+		"Vivian H"
+	],
+	"contact": {
+		"website": "https://sparkle.gay",
+		"repo": "https://github.com/SparkleDEV/DwayneTheBlockJohnson"
+	},
+	"license": "ISC",
+	"icon": "assets/dwaynetheblockjohnson/icon.png",
+	"environment": "client",
+	"entrypoints": {
+		"fabric-datagen": [
+			"gay.sparkle.dwaynetheblockjohnson.DwayneTheBlockJohnsonModDataGenerator"
+		],
+		"main": [
+			"gay.sparkle.dwaynetheblockjohnson.DwayneTheBlockJohnsonMod"
+		]
+	},
+	"mixins": [
+		"dwaynetheblockjohnson.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=${loader_version}",
+		"fabric": "*",
+		"minecraft": "${minecraft_version}"
+	}
+}
