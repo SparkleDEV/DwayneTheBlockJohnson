@@ -13,7 +13,7 @@
 	},
 	"license": "ISC",
 	"icon": "assets/dwaynetheblockjohnson/icon.png",
-	"environment": "client",
+	"environment": "*",
 	"entrypoints": {
 		"fabric-datagen": [
 			"gay.sparkle.dwaynetheblockjohnson.DwayneTheBlockJohnsonModDataGenerator"
